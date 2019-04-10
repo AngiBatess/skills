@@ -1,0 +1,110 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  background: linear-gradient(270deg, #ff0000, #ffffff, #0067fc);
+  background-size: 600% 600%;
+  height: 100vh;
+  -webkit-animation: AnimationName 52s ease infinite;
+  -moz-animation: AnimationName 52s ease infinite;
+  animation: AnimationName 52s ease infinite;
+
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.nav{
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.nav li{
+  display: inline-block;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.nav li.active a {
+  border: 1px solid white;
+}
+.nav li a:hover{
+  border: 1px solid white;
+}
+.logo img{
+  /*width:220px; /* you can use % */
+  float: left;
+  margin-left: 20px;
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 300px;
+}
+body{
+  font-family: monospace;
+}
+.row{
+  max-width: 1200px;
+  margin: auto;
+
+}
+.hero{
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 275px;
+}
+.button{
+  margin-top: 30px;
+  margin-left: 440px;
+}
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.btn-one{
+  background-color: rgb(142, 12, 7);
+  font-family: "Roboto", sans-serif;
+}
+.btn-two{
+  font-family: "Roboto", sans-serif;
+}
+.btn-two:hover{
+  background-color: rgb(142, 12, 7);
+  transition: all 0.5s ease-in;
+}
