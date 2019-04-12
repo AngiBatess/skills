@@ -5,7 +5,9 @@
 
 }
 header{
-  background: black;
+  background: linear-gradient(270deg, #ff0000, #ffffff, #0067fc);
+  background-size: 600% 600%;
+  height: 100vh;
 }
 .nav{
   float: right;
@@ -46,12 +48,23 @@ body{
   margin: auto;
 
 }
+section{
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
 .sec1{
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: red;
 }
 .sec2{
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: white;
 }
 .sec3{
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: blue;
 }
